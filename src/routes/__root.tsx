@@ -29,14 +29,18 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Patients Survey Form" },
+      { name: "description", content: "A multi-step patient survey application for healthcare assistance in Hyderabad." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Patients Survey Form" },
+      { property: "og:description", content: "A multi-step patient survey application for healthcare assistance in Hyderabad." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Patients Survey Form" },
+      { name: "twitter:description", content: "A multi-step patient survey application for healthcare assistance in Hyderabad." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/466a69e2-f5e4-4198-93c0-5824e13fefee/id-preview-5645226a--965976da-a52a-4384-bc76-738f4fde72b5.lovable.app-1776937557537.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/466a69e2-f5e4-4198-93c0-5824e13fefee/id-preview-5645226a--965976da-a52a-4384-bc76-738f4fde72b5.lovable.app-1776937557537.png" },
     ],
     links: [
       {
