@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { useForm, Controller, type UseFormReturn } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { ArrowLeft, ArrowRight, Send, Stethoscope, ShieldCheck, Info } from "lucide-react";
+import { ArrowLeft, ArrowRight, Send, ShieldCheck, Info } from "lucide-react";
+import healtourLogo from "@/assets/healtour-logo.jpg";
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
@@ -665,12 +666,13 @@ export function SurveyHeader() {
     <header className="border-b border-border bg-[image:var(--gradient-hero)] text-primary-foreground">
       <div className="mx-auto max-w-5xl px-4 py-8 sm:py-10">
         <div className="flex items-center gap-3">
-          <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-white/15 backdrop-blur">
-            <Stethoscope className="h-6 w-6" />
-          </div>
+          <img
+            src={healtourLogo}
+            alt="Healtour logo"
+            className="h-11 w-auto rounded-lg shadow-sm"
+          />
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-white/80">Healtour · Hyderabad</p>
-            <p className="text-xs text-white/70">Medical Tourism Outreach</p>
+            <p className="text-xs text-white/80">Medical Tourism Outreach</p>
           </div>
         </div>
         <h1 className="mt-5 text-balance text-2xl font-semibold leading-tight sm:text-3xl">
