@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useForm, Controller, type UseFormReturn } from "react-hook-form";
-import { zodResolver } from "@hookform/resolvers/zod";
+import { zodResolver } from "@hookform/resolvers/zod/v4";
 import { ArrowLeft, ArrowRight, Send, Stethoscope, ShieldCheck, Info } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
