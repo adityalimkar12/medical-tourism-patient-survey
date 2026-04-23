@@ -8,7 +8,7 @@ export const surveySchema = z.object({
   location: z.string().trim().min(1, "Location required").max(100),
   adminLanguage: z.string().min(1, "Language required"),
   time: z.string().min(1, "Time required"),
-  consent: z.literal(true, { errorMap: () => ({ message: "Consent is required to proceed" }) }),
+  consent: z.literal(true, { message: "Consent is required to proceed" }),
 
   // Step 1
   role: z.string().min(1, "Role required"),
